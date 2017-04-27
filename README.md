@@ -8,22 +8,22 @@
 		- set the task status 
  		- delete a task from the list
 
-	## How to deploy
-		#### Server Requirements
-    			- PHP >= 5.6.4
-			- OpenSSL PHP Extension
-			- PDO PHP Extension
-			- Mbstring PHP Extension
-			- Tokenizer PHP Extension
-			- XML PHP Extension
-		#### Installation 
-			- Clone the repositary
-			- Rename .env.example to .env 
-			- Alter Database credentials in .env file (look into "config/database.php" for competibilities') 
-			- Import "todolist.sql" into your dbms	
+## How to deploy
+#### Server Requirements
+	- PHP >= 5.6.4
+	- OpenSSL PHP Extension
+	- PDO PHP Extension
+	- Mbstring PHP Extension
+	- Tokenizer PHP Extension
+	- XML PHP Extension
+#### Installation 
+- Clone the repositary
+- Rename .env.example to .env 
+- Alter Database credentials in .env file (look into "config/database.php" for competibilities') 
+- Import "todolist.sql" into your dbms	
 	
-	---
-	## API Document
+---
+## API Document
 
  	| Method    	| URI                   		| Name            |
 	+--------------------+---------------------------------+-----------------+
