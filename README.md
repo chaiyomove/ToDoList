@@ -1,13 +1,14 @@
 # ToDoList
 	RESTful API To-Do List in Laravel PHP Framework
 	Capabilities:
-- view all tasks in the list
-- view a single task in the list
-- add a task to the list
- - edit existing task
-- set the task status 
- - delete a task from the list
+		- view all tasks in the list
+		- view a single task in the list
+		- add a task to the list
+ 		- edit existing task
+		- set the task status 
+ 		- delete a task from the list
 
+---
 ## How to deploy
 #### Server Requirements
 - PHP >= 5.6.4
@@ -26,10 +27,10 @@
 ## API Document
 
 
- 	| Method    | URI                   		| Name            |
-	+-----------+-------------------------------+-----------------+
+ 	| Method       | URI                   		| Name            |
+	+--------------+-------------------------------+-----------------+
 	GET|HEAD 	| api/tasks             		| tasks.index   
-	POST        | api/tasks             		| tasks.store   
+	POST        	| api/tasks             		| tasks.store   
 	GET|HEAD  	| api/tasks/create      		| tasks.create  
 	DELETE    	| api/tasks/{task}      		| tasks.destroy 
 	PUT|PATCH 	| api/tasks/{task}      		| tasks.update  
