@@ -28,7 +28,7 @@
 
 
  	| Method        | URI                   	     	| Name            |
-	+---------------+---------------------------------------+-------------------+
+	+---------------+---------------------------------------+-----------------+
 	GET|HEAD 	| api/tasks             		| tasks.index   
 	POST        	| api/tasks             		| tasks.store   
 	GET|HEAD  	| api/tasks/create      		| tasks.create  
