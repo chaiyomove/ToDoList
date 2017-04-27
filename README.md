@@ -30,9 +30,11 @@
  	| Method        | URI                   	     	| Name            |
 	+---------------+---------------------------------------+-----------------+
 	GET|HEAD 	| api/tasks             		| tasks.index   
-	POST        	| api/tasks             		| tasks.store   
+	GET|HEAD  	| api/tasks/{task}      		| tasks.show 
 	GET|HEAD  	| api/tasks/create      		| tasks.create  
-	DELETE    	| api/tasks/{task}      		| tasks.destroy 
+	POST        	| api/tasks             		| tasks.store   
+	GET|HEAD  	| api/tasks/{task}/edit 		| tasks.edit 
 	PUT|PATCH 	| api/tasks/{task}      		| tasks.update  
-	GET|HEAD  	| api/tasks/{task}      		| tasks.show   
-	GET|HEAD  	| api/tasks/{task}/edit 		| tasks.edit    
+	GET    		| api/tasks/status/{task}/edit		| status.edit
+	PATCH  		| api/tasks/status/{task}		| status.update
+	DELETE    	| api/tasks/{task}      		| tasks.destroy
