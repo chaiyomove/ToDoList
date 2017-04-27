@@ -104,6 +104,8 @@ RESTful API To-Do List in Laravel PHP Framework
 ---
 ### GET|HEAD 	| api/tasks/create 
 	Show the form for creating a new task.
+##### NO RESPONSE
+
 ---
 ### POST 		| api/tasks
 	Store a newly created task in storage.
@@ -133,13 +135,13 @@ RESTful API To-Do List in Laravel PHP Framework
 ---
 ### GET|HEAD  	| api/tasks/{task}/edit
 	Show the form for editing the specified task.
-```json
-NO  RESPONSE
-```
+#####NO RESPONSE
+
 ---
 ### PUT|PATCH 	| api/tasks/{task}
 	Update the specified task in storage.
 ##### Success Response
+
 ```json
 {
   "status_code": "200",
@@ -172,9 +174,8 @@ NO  RESPONSE
 ---
 ### GET    		| api/tasks/status/{task}/edit
 	Show the form for editing the specified task's status.
-```json
-NO  RESPONSE
-``` 
+##### NO RESPONSE
+
 ---
 
 ### PATCH  		| api/tasks/status/{task}
