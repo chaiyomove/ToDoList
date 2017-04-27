@@ -1,6 +1,6 @@
 # ToDoList
 RESTful API To-Do List in Laravel PHP Framework
-##### Capabilities:
+#### Capabilities:
 	- view all tasks in the list
 	- view a single task in the list
 	- add a task to the list
