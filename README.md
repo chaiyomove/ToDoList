@@ -133,6 +133,9 @@ RESTful API To-Do List in Laravel PHP Framework
 ---
 ### GET|HEAD  	| api/tasks/{task}/edit
 	Show the form for editing the specified task.
+```json
+NO  RESPONSE
+```
 ---
 ### PUT|PATCH 	| api/tasks/{task}
 	Update the specified task in storage.
@@ -168,7 +171,10 @@ RESTful API To-Do List in Laravel PHP Framework
 ```
 ---
 ### GET    		| api/tasks/status/{task}/edit
-	Show the form for editing the specified task's status. 
+	Show the form for editing the specified task's status.
+```json
+NO  RESPONSE
+``` 
 ---
 
 ### PATCH  		| api/tasks/status/{task}
@@ -217,7 +223,6 @@ RESTful API To-Do List in Laravel PHP Framework
 ```json
 {
   "status_code": "404",
-
   "msg": "Not Found",
   "data": null
 }
