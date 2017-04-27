@@ -20,5 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::resource('tasks', 'TasksController');
 
 //status editing
-Route::get('tasks/status/{id}/edit', 'TasksController@editStatus');
-Route::patch('tasks/status/{id}', 'TasksController@updateStatus');
+Route::get('tasks/status/{task}/edit', 'TasksController@editStatus')->name('status.edit');
+Route::patch('tasks/status/{task}', 'TasksController@updateStatus')->name('status.edit');;
