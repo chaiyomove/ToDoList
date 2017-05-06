@@ -135,7 +135,7 @@ RESTful API for To-Do List in Laravel PHP Framework
 ---
 ### GET|HEAD  	| api/tasks/{task}/edit
 	Show the form for editing the specified task.
-#####NO RESPONSE
+##### NO RESPONSE
 
 ---
 ### PUT|PATCH 	| api/tasks/{task}
